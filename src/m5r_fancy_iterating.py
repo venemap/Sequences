@@ -13,10 +13,10 @@ is different from:
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
          their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 # ----------------------------------------------------------------------
-# TODO: 2. READ the program below and RUN it.
+# Done: 2. READ the program below and RUN it.
 #
 #   When you have read it, asking questions as needed,
 #   and you feel that you understand:
@@ -81,7 +81,6 @@ def sum_string_lengths(sequence, m, n):
     for k in range(n, m - 1, -1):
         s = sequence[k]
         total = total + len(s)
-
     return total
 
     # Here is an alternative (there are other alternatives as well):
